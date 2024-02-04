@@ -1,0 +1,74 @@
+# IntelliJ IDEA
+.idea/
+
+# Gradle
+.gradle/
+/build/
+
+# Compiled bytecode
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Eclipse
+bin/
+tmp/
+*.tmp/
+*.bak/
+*.swp/
+*~
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code
+.vscode/
+
+# Kotlin
+*.kotlin_module
+
+# User-specific files
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+
+# User-specific IDE settings
+.idea/misc.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# User-specific global settings
+.idea/copyright/profiles_settings.xml
+.idea/codeStyles/*
+.idea/shelf/
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.swo
+*.swp
