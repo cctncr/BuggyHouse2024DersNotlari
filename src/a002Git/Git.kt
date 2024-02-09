@@ -4,8 +4,8 @@ package a002Git
     cd (change directory) -> dosyaya gitme
     clear -> terminali temizler
 
-    git --global user.name "<isim>" -> isim koyar
-    git --global user.email "<email>" -> email koyar
+    git config --global user.name "<isim>" -> isim koyar
+    git config --global user.email "<email>" -> email koyar
 
     git init -> initialize eder
     git clone <url> -> uzak sunucuda bulunan repoyu clone'lar
@@ -41,8 +41,8 @@ package a002Git
     git checkout -b <branch name>/<isim> -> branch olusturur ve o branch'e gider
 
     ONEMLI OLANLAR
-    git --global user.name "<isim>"
-    git --global user.email "<email>"
+    git config --global user.name "<isim>"
+    git config --global user.email "<email>"
     git init
     git clone <url>
     git status
