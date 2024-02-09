@@ -17,12 +17,12 @@ package a002Git
     git status -> degisiklikleri gosterir
     git status -s -> daha kisa bilgi
 
-    git add <file ismi> -> untracked file'i stacking area'ya ekler untracked -> tracked olur
+    git add <file ismi> -> untracked file'i staging area'ya ekler untracked -> tracked olur
     git add --all -> tum dosylari tracked yapar
-    git reset -> stacking areadakileri geri cikarir ama yapilan islemi geri alma islemi degildir
+    git reset -> staging area'dakileri geri cikarir ama yapilan islemi geri alma islemi degildir
 
     git diff -> yapilan degisiklikleri gosterir
-    git diff --staged -> stacking area'daki degisiklikleri gosterir
+    git diff --staged -> staging area'daki degisiklikleri gosterir
     git diff -stat -> kac dosya ve satir degisti gosterir
 
     git commit -m "<mesaj>" -> commitleme
