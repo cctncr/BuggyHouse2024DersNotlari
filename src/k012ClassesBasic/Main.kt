@@ -28,6 +28,7 @@ class Turtle public constructor(name: String, legCount: Int) {
 
 fun main() {
     val turtle = Turtle("Brown", 3, "Brown")
+    val b = 10
 }
 
 // VISIBILITY MODIFIERS
@@ -54,4 +55,6 @@ oncelikle constructor keyword'unu acikca yazmamiz gerekiyor
 default olarak public geliyor boylece class'in visible oldugu her yerde visible oluyor
 
 sealed class'larda constructor'lar defult olarak protected geliyor
+
+local degiskenler fonksiyonlar ve class'lar visibility modifiers alamazlar
  */
