@@ -51,7 +51,7 @@ eger internal ve protected members'lari override edersek ve kendimiz yeni bir vi
 belirlemezsek ayni visibility modifier'i tasirlar
 
 eger constructor icin yazildiysa:
-oncelikle constructor keyword'unu acikca yazmamiz gerekiyor
+oncelikle constructor keyword'unu acikca yazmamiz gerekiyor primary constructor icin
 default olarak public geliyor boylece class'in visible oldugu her yerde visible oluyor
 
 sealed class'larda constructor'lar defult olarak protected geliyor
